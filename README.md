@@ -29,7 +29,7 @@ To run this project locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```
-   git clone https://github.com/your-username/course-registration.git](https://github.com/programming-hero-web-course2/my-course-roster-ornob90.git
+   git clone https://github.com/programming-hero-web-course2/my-course-roster-ornob90.git
    ```
 
 2. Navigate to the project directory:
