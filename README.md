@@ -30,7 +30,7 @@ To run this project locally, follow these steps:
 
    ```
    bash
-   git clone https://github.com/your-username/course-registration.git
+   git clone https://github.com/your-username/course-registration.git](https://github.com/programming-hero-web-course2/my-course-roster-ornob90.git
    ```
 
 2. ```
