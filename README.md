@@ -33,16 +33,19 @@ To run this project locally, follow these steps:
    ```
 
 2. Navigate to the project directory:
+   
    ```
    cd course-registration
    ```
 
 4. Install the required dependencies:
+   
    ```
    npm install
    ```
    
 5. Start the development server:
+   
    ```
    npm start
    ```
