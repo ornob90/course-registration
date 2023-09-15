@@ -1,6 +1,6 @@
 import CourseList from "./components/CourseList";
 import Cart from "./components/Cart";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -10,11 +10,22 @@ function App() {
   const [totalCredit, setTotalCredit] = useState(0);
 
   const handleAddCart = (course_name, price, credit) => {
-    const isExist = cart.find((name) => {
-      return name === course_name;
-    });
+    const isExist = cart.find((course) => course.course_name === course_name);
 
-    if (isExist) return;
+    if (isExist) {
+      toast("Already Exist!!", {
+        position: "bottom-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        progress: undefined,
+        theme: "dark",
+        type: "error",
+      });
+
+      return;
+    }
 
     const course = {
       course_name,
