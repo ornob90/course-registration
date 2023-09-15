@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import Course from './Course'
 
-const CourseList = () => {
+const CourseList = ({handleAddCart}) => {
 
   const [courses, setCourses] = useState([]);
+  
 
   useEffect(() => {
 
@@ -23,7 +24,7 @@ const CourseList = () => {
         {
         courses.map(({id, image_url, course_name, credit, price, details}) => (
 
-            <Course key={id} image_url={image_url} course_name={course_name} credit={credit} price={price} details={details}/>
+            <Course  key={id} handleAddCart={handleAddCart} image_url={image_url} course_name={course_name} credit={credit} price={price} details={details}/>
           ))
         }
 

@@ -1,20 +1,22 @@
 import React from 'react'
 import {BsCurrencyDollar, BsBook} from "react-icons/bs"
 
-const Course = ({image_url, course_name, credit, price, details}) => {
+const Course = ({handleAddCart, image_url, course_name, credit, price, details}) => {
+
+
   return (
     // Card Body
-    <div className="rounded-lg p-4 bg-white grid grid-cols-1 gap-2">
+    <div className="grid grid-cols-1 gap-2 p-4 bg-white rounded-lg">
         {/* Img */}
         <div className='w-full h-[250px] lg:h-[150px] '>
-            <img className='rounded-lg object-cover w-full h-full' src={image_url} alt="" />
+            <img className='object-cover w-full h-full rounded-lg' src={image_url} alt="" />
         </div>
 
         <p className="text-lg font-semibold">{course_name}</p>
         <p className="text-[#1c1b1b99] text-sm">{details}</p>
 
 
-        <div className=" font-medium text-lg flex justify-between items-center">
+        <div className="flex items-center justify-between text-lg font-medium ">
 
             <BsCurrencyDollar className='text-xl'/>
             
@@ -24,7 +26,7 @@ const Course = ({image_url, course_name, credit, price, details}) => {
             
         </div>
     
-        <button className='bg-[#2F80ED] text-white rounded-lg py-1 mt-3 text-lg'>Select</button>
+        <button className='bg-[#2F80ED] text-white rounded-lg py-1 mt-3 text-lg' onClick={() => handleAddCart(course_name, price, credit)}>Select</button>
     </div>
   )
 }

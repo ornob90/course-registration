@@ -3,7 +3,7 @@
       "id" : 1,
       "image_url": "https://www.appstudio.ca/blog/wp-content/uploads/2020/01/Web-Development-and-Its-Principles.png",
       "course_name": "Web Development Fundamentals",
-      "credit": "3hr",
+      "credit": 8,
       "price": 10000,
       "details": "Learn essential web dev skills: HTML, CSS, JS. Kickstart your web development journey!"
     },
@@ -11,7 +11,7 @@
       "id" : 2,
       "image_url": "https://images.yourstory.com/cs/2/96eabe90392211eb93f18319e8c07a74/T4PB-f0c-1686918503273.jpg?w=1152&fm=auto&ar=2:1&mode=crop&crop=faces",
       "course_name": "Advanced JavaScript Techniques",
-      "credit": "4hr",
+      "credit": 4,
       "price": 12000,
       "details": "Master JS: async, OOP, ES6+. Level up your coding skills with advanced techniques."
     },
@@ -19,7 +19,7 @@
       "id" : 3,
       "image_url": "https://www.bluecorona.com/wp-content/uploads/2015/04/what-is-a-responsive-website.png",
       "course_name": "Responsive Web Design",
-      "credit": "2hr",
+      "credit": 5,
       "price": 8000,
       "details": "Design mobile-friendly websites. CSS Flexbox, Grid, and media queries for responsive layouts."
     },
@@ -27,7 +27,7 @@
       "id" : 4, 
       "image_url": "https://codemanbd.com/wp-content/uploads/2023/03/0b4e4459-527d-48a4-99ad-efc08581c45a.jpeg",
       "course_name": "Full-Stack Web Development",
-      "credit": "5hr",
+      "credit": 10,
       "price": 15000,
       "details": "Become a full-stack developer. Learn front-end (React) and back-end (Node, Express)."
     },
@@ -35,7 +35,7 @@
       "id" : 5,
       "image_url": "https://res.cloudinary.com/practicaldev/image/fetch/s--aYYf1fno--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/dfuq3wi25tt8p9679077.png",
       "course_name": "Web Security Essentials",
-      "credit": "3hr",
+      "credit": 3,
       "price": 11000,
       "details": "Protect websites from cyber threats. Secure coding, HTTPS, and common vulnerabilities."
     },
@@ -43,7 +43,7 @@
       "id" : 6,
       "image_url": "https://d2o2utebsixu4k.cloudfront.net/media/images/blogs/share_image/222b5354-d4c3-4e24-bafe-d2c6fdc368ee.jpg",
       "course_name": "Front-End Frameworks",
-      "credit": "4hr",
+      "credit": 4,
       "price": 13000,
       "details": "Master front-end with Angular, Vue.js, and React. Build dynamic, interactive web apps."
     },
@@ -51,7 +51,7 @@
       "id" : 7,
       "image_url": "https://cdn.fandangoseo.com/wp-content/uploads/2020/04/WebPO.jpg",
       "course_name": "Web Accessibility",
-      "credit": "2hr",
+      "credit": 2,
       "price": 9000,
       "details": "Ensure inclusivity. Learn WCAG guidelines, ARIA roles, and make the web accessible to all."
     },
@@ -59,7 +59,7 @@
       "id" : 8,
       "image_url": "https://www.boardinfinity.com/blog/content/images/2023/02/Client-and-server-side-scripting.png",
       "course_name": "Server-Side Scripting",
-      "credit": "3hr",
+      "credit": 3,
       "price": 10000,
       "details": "Develop server-side apps with PHP, Python, and Ruby. Handle data and create APIs."
     },
@@ -67,7 +67,7 @@
       "id" : 9,
       "image_url": "https://cdn.fandangoseo.com/wp-content/uploads/2020/04/WebPO.jpg",
       "course_name": "Web Performance Optimization",
-      "credit": "3hr",
+      "credit": 3,
       "price": 10500,
       "details": "Speed up websites. Learn caching, image optimization, and reduce load times for better UX."
     }
