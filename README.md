@@ -21,6 +21,11 @@ This project includes the following features:
 - **Toast Notifications**: If a user attempts to select the same course multiple times or exceeds the credit limit, a toast notification is displayed to inform them of the constraint.
 
 
+## Use Of State
+
+I have a list of selected course names that I want to display in a cart. To manage this list, I use a state called "cart," which is an array. Since both the course selection component and the cart component need access to this list, I move this state up to a common ancestor component, which is the App component. I pass both the "cart" state and the function to modify this state as props to the child components.
+
+Similarly, I also need to keep track of the total price and total credits for the selected courses. To ensure both the cart and course selection components can access these values, I follow the same pattern: I use state to manage these variables in the App component and pass them down to the child components as props.
 
 ## Installation
 
