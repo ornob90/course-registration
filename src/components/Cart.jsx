@@ -14,9 +14,9 @@ const Cart = ({ totalPrice, totalCredit, cart }) => {
         ))}
       </ol>
       <hr />
-      <p className="font-medium ">Total Credit Hour: {totalCredit}hr</p>
+      <p className="font-medium ">Total Credit Hour: {totalCredit}</p>
       <hr />
-      <p className="font-medium">Total Price: {totalPrice}USD</p>
+      <p className="font-medium">Total Price: {totalPrice} USD</p>
     </div>
   );
 };
