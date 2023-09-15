@@ -29,21 +29,20 @@ To run this project locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```
-   bash
    git clone https://github.com/your-username/course-registration.git](https://github.com/programming-hero-web-course2/my-course-roster-ornob90.git
    ```
 
-2. ```
-   Navigate to the project directory:
+2. Navigate to the project directory:
+   ```
    cd course-registration
    ```
 
-3. ```
-   Install the required dependencies:
+4. Install the required dependencies:
+   ```
    npm install
    ```
-
-4. ```
-   Start the development server:
+   
+5. Start the development server:
+   ```
    npm start
    ```
