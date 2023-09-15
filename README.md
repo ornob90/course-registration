@@ -33,11 +33,17 @@ To run this project locally, follow these steps:
    git clone https://github.com/your-username/course-registration.git
    ```
 
-2. ```Navigate to the project directory:
+2. ```
+   Navigate to the project directory:
    cd course-registration
+   ```
 
-3. ```Install the required dependencies:
+3. ```
+   Install the required dependencies:
    npm install
+   ```
 
-4. ```Start the development server:
+4. ```
+   Start the development server:
    npm start
+   ```
